@@ -5,3 +5,7 @@ let playlist = {
 function updatePlaylist(playlist, artistName, songTitle){
   playlist[artistName] = songTitle;
 }
+
+function removeFromPlaylist(playlist, artistName){
+  Delete playlist[artistName];
+}
